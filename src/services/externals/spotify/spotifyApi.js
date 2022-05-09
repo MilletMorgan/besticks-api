@@ -1,8 +1,8 @@
 import SpotifyWebApi from 'spotify-web-api-node';
 
 const spotifyApi = new SpotifyWebApi({
-  clientId: 'ae7904797ecc495bbca949f017cd79e7',
-  clientSecret: 'f21c85b5bd994d57ba32a6feb1da7f43',
+  clientId: '', // TODO: Put client id in .env.local and import it here
+  clientSecret: '', // TODO: Put client secret in .env.local and import it here
   redirectUri: '',
 });
 

@@ -3,7 +3,7 @@ import Stripe from 'stripe';
 import { decrementTicket } from '../../pro/events.js';
 
 const stripe = new Stripe('sk_test_51K6AxCBeWMoOWIva3YaOXnWhpR8GoqbxqnsDat5kCZcS7ONDtaGQIBBDfZyCag1lqOIWic164fapvXVAzTrmTobn0063IcZJWB');
-const webhookSecret = 'whsec_kF4phZqPSMPKShkL6azYS71ig8EnSFGM';
+const webhookSecret = ''; // TODO: Put secret in .env.local and import it here
 const baseUrl = 'https://web-app-beta-five.vercel.app';
 
 export const createCheckoutSession = async (req, res) => {
